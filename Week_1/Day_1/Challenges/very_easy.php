@@ -1,36 +1,31 @@
 <!-- 
-	Using everything you have learned and some googling to render the
-	months that I ask for below but make sure they are not in my $monthsExcludeArray
+  Using everything you have learned and some googling
 
-	Months you should try to render:
-		- April
-		- September
-		- December
+  I have an array of names below but they are all out of order 
+  figure out the code needed to put them in order
+
+  Bonus: render all of the names in reverse order
  -->
-
 <!DOCTYPE html>
 <html>
-    <head>
-	</head>
-	<body>
+  <head></head>
+  <body>
         <p>
           <?php
-          
-          	// months I dont want to render
-          	$monthExcludeArray = [
-          	 'January', 
-          	 'February',
-          	 'March',
-          	 'May',
-          	 'June',
-          	 'July',
-          	 'August',
-          	 'September',
-          	 'November'
-          	];
+            $unOrderedArray = [
+              'Joseph',
+              'Lauren',
+              'Eric',
+              'James',
+              'Derek',
+              'Mark',
+              'Alex',
+              'Tru',
+              'Michael'
+            ];
 
-          	// code goes here ...
+          // code goes here...
           ?>
         </p>
-	</body>
+  </body>
 </html>

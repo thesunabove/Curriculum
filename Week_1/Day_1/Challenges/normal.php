@@ -1,5 +1,6 @@
 <!-- 
 	Using everything you have learned and some googling
+
 	pretend this is a post page and someone is trying to figure out
 	what someones favorite color is... I have provided you this associative
 	array so come up with the best way of returning that persons color
@@ -8,8 +9,7 @@
 
 <!DOCTYPE html>
 <html>
-    <head>
-	</head>
+    <head></head>
 	<body>
         <p>
           <?php
