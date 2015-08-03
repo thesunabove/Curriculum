@@ -4,12 +4,17 @@
 	</head>
 	<body>
         <p>
-          <?php
-          	// The below code doesn't work... figure out why
-            $var = "What's up!"
+            <?php
 
-            echo $var
-          ?>
+                $i = 0;
+
+                while ($i < 10) {
+
+                    echo "{$i} is < 10";
+
+                }
+
+            ?>
         </p>
 	</body>
 </html>
